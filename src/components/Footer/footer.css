@@ -1,0 +1,59 @@
+.footer{
+    background:	#FFFFF0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 60%;
+}
+
+
+#footer-section{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#footer-section .row{
+        padding-top: 40px;
+        padding-bottom: 40px;
+}
+.icon{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 70px;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.icon:hover{
+    transform: translate(-5px,5px);
+}
+.icon img{
+    width: 25px;
+    height: 25px;
+}
+.second p{
+    font-size: 1rem;
+    font-family: Gilroy-Light;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+.third p{
+    font-size: 0.8rem;
+    font-family: Gilroy-Light;
+    text-transform: uppercase;
+    
+}
+
+p a{
+    color: black;
+    text-decoration: none;
+}
+p a:hover{
+    text-decoration: none;
+    color: black;
+}
